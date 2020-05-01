@@ -1,5 +1,4 @@
 #pragma once
-
 #include <iostream>
 using namespace std;
 
@@ -21,15 +20,21 @@ public:
     }
     void Print() // Вывод элементов дерева
     {
+        cout << "Tree" << endl;
         print(tree, 0);
+        cout << endl;
     }
     void DeleteElement(T n) // Удаление элементов из дерева
     {
+        cout << "Element " << n << " deleted" << endl;
         DeleteNode(tree, n);
+        cout << endl;
     }
     void PLeaf() // Вывод листьев дерева
     {
+        cout << "Leaves " << endl;
         PrintLeaf(tree);
+        cout << endl;
     }
     void ElementSearch(T n) // Поиск элемента в дереве
     {

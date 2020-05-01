@@ -19,11 +19,8 @@ int main()
     tree.Push(33);
     tree.Print();
     tree.DeleteElement(21);
-    cout << endl;
     tree.Print();
-    cout << endl;
     tree.PLeaf();
-    cout << endl;
     tree.ElementSearch(28);
     tree.ElementSearch(69);
 }
